@@ -2,9 +2,9 @@ package com.raftds;
 
 import org.junit.Assert;
 import org.junit.Test;
-import static com.raftds.WebDriverSettings.chromeDriver;
+import com.raftds.WebDriverSettings;
 
-public class Steps {
+public class Steps extends WebDriverSettings {
 
     @Test
     public void test() {
